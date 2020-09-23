@@ -5,7 +5,7 @@
 We are happy to release our dataset to the community. However, to avoid this dataset being misused, please read and agree to the following conditions.
 
 * If you are a student (or postdoc) in academia, please ask your advisor (or host) to fill out the [form](https://mayachitra.com/#contact-us) with subject that starts with [MaleX Request]. If you are a faculty member, please provide university's email account in the form. In your message, please include your name, affiliation, and homepage. The information is needed for verification purpose.
-* If you are in research (industrial) labs, please fill out the [form](https://mayachitra.com/#contact-us) by providing your company's email account with subject that starts with [MaleX Request]. In the message, please briefly introduce yourself (e.g., name and title) and your company. In the form, please attach a justification letter (in PDF format) in official letterhead. The justification letter needs to acknowledge the "MaleX Malware Dataset" project from Mayachitra, Inc. and state clearly the reasons why the dataset is being requested.
+* If you are in research (industrial) labs, please fill out the [form](https://mayachitra.com/#contact-us) by providing your company's email account with subject that starts with [MaleX Request]. In the message, please briefly introduce yourself (e.g., name and title) and your company. In the form, please attach a justification letter (in PDF format) in official letterhead. The justification letter needs to acknowledge the "MaleX Malware Dataset" from Mayachitra, Inc. and state clearly the reasons why the dataset is being requested.
 
 Please note that, your request will be ignored if you are unable to follow these conditions.
 
