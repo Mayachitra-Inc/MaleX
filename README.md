@@ -29,4 +29,4 @@ If you use *MaleX* in your research or wish to refer to the content published he
 ## License 
 *MaleX* is released under GPL-3.0 License.
 
-Copyright © 2020 [Mayachitra, Inc.](https://mayachitra.com/)
+Copyright © 2021 [Mayachitra, Inc.](https://mayachitra.com/)
