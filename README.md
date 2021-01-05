@@ -13,5 +13,20 @@ The release of data is conditioned on accepting the following terms to avoid the
 
 Please note that, your request will be ignored if you are unable to follow these conditions.
 
+## Citing
+If you use *MaleX* in your research or wish to refer to the content published here, please use the following BibTeX entry:
+
+```BibTeX
+@inproceedings{mohammedmalware,
+  title={Malware Detection Using Frequency Domain-Based Image Visualization and Deep Learning},
+  author={Mohammed, Tajuddin Manhar and Nataraj, Lakshmanan and Chikkagoudar, Satish and Chandrasekaran, Shivkumar and Manjunath, BS},
+  booktitle={Proceedings of the 54th Hawaii International Conference on System Sciences},
+  pages={7132}
+}
+```
+
+
+## License 
+*MaleX* is released under GPL-3.0 License.
 
 Copyright © 2020 [Mayachitra, Inc.](https://mayachitra.com/)
