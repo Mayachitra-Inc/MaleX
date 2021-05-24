@@ -1,6 +1,6 @@
 # MaleX
 
-_MaleX_ is a curated dataset of malware and benign Windows executable samples for malware researchers. The dataset contains 1,044,394 Windows executable binaries with 864,669 labelled as malware and 179,725 as benign. This dataset has reasonable number of samples and is sufficient to test data-driven machine learning classification methods and also to measure the performance of the designed models in terms of scalability and adaptability. 
+_MaleX_ is a curated dataset of malware and benign Windows executable samples for malware researchers. The dataset contains 1,044,394 Windows executable binaries and corresponding image representations with 864,669 labelled as malware and 179,725 as benign. This dataset has reasonable number of samples and is sufficient to test data-driven machine learning classification methods and also to measure the performance of the designed models in terms of scalability and adaptability. 
 
 ## Malware Visualization in Frequency Domain
 
@@ -11,7 +11,7 @@ A given executable binary file is read as a 16-bit signed hexadecimal vector and
 ![Bigram-dct image](figs/overview.png "Visualizing malware as a grayscale image in DCT domain")
 
 ```diff
-- CODE NOT AVAILABLE FOR RELEASE YET
+- CODE IS NOT AVAILABLE FOR RELEASE YET
 ```
 
 ## Comparing Malware Visualization Methods
@@ -27,11 +27,11 @@ We are not responsible, or liable to you or any third party, for the content or 
 -   If you are a student (or postdoc) in academia, please ask your advisor (or host) to fill out the [form](https://mayachitra.com/#contact-us) with subject that starts with [MaleX Request]. If you are a faculty member, please provide university's email account in the form. In your message, please include your name, affiliation, and homepage. The information is needed for verification purpose.
 -   If you are in research (industrial) labs, please fill out the [form](https://mayachitra.com/#contact-us) by providing your company's email account with subject that starts with [MaleX Request]. In the message, please briefly introduce yourself (e.g., name and title) and your company. In the form, please attach a justification letter (in PDF format) in official letterhead. The justification letter needs to acknowledge the "MaleX Malware Dataset" from Mayachitra, Inc. and state clearly the reasons why the dataset is being requested.
 
-Please note that, your request will be ignored if you are unable to follow these conditions.
+Please note that, your request will be ignored if you are unable to follow these conditions. Also, while filling out the form, please make sure that the **message's character length is between 20 and 1000**, and/or the **PDF attachment is less than 2MB**.
 
 ```diff
-+ ONLY IMAGES AVAILABLE
-- BINARIES NOT AVAILABLE FOR RELEASE YET
++ ONLY IMAGES ARE AVAILABLE
+- BINARIES ARE AVAILABLE UPON REQUEST (U.S. CITIZENS ONLY)
 ```
 
 ## Citing
@@ -43,7 +43,8 @@ If you use _MaleX_ in your research or wish to refer to the content published he
   title={Malware Detection Using Frequency Domain-Based Image Visualization and Deep Learning},
   author={Mohammed, Tajuddin Manhar and Nataraj, Lakshmanan and Chikkagoudar, Satish and Chandrasekaran, Shivkumar and Manjunath, BS},
   booktitle={Proceedings of the 54th Hawaii International Conference on System Sciences},
-  pages={7132}
+  pages={7132},
+  year={2021}
 }
 ```
 
