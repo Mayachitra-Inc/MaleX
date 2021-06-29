@@ -31,7 +31,7 @@ Please note that, your request will be ignored if you are unable to follow these
 
 ```diff
 + ONLY IMAGES ARE AVAILABLE
-- BINARIES ARE AVAILABLE UPON REQUEST (U.S. CITIZENS ONLY)
+- BINARIES ARE AVAILABLE UPON REQUEST (SUBJECT TO APPROVAL)
 ```
 
 ## Citing
