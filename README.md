@@ -11,7 +11,7 @@ A given executable binary file is read as a 16-bit signed hexadecimal vector and
 ![Bigram-dct image](figs/overview.png "Visualizing malware as a grayscale image in DCT domain")
 
 ```diff
-- CODE TO CONVERT BINARIES TO IMAGES WILL BE AVAILABLE SOON
++ CODE TO CONVERT BINARIES TO IMAGES IS NOW AVAILABLE
 ```
 
 ## Comparing Malware Visualization Methods
@@ -30,8 +30,8 @@ We are not responsible, or liable to you or any third party, for the content or 
 Please note that, your request will be ignored if you are unable to follow these conditions. Also, while filling out the form, please make sure that the **message's character length is between 20 and 1000**, and/or the **PDF attachment is less than 2MB**.
 
 ```diff
-+ ONLY IMAGES ARE AVAILABLE
-- BINARIES ARE UNAVAILABLE AT THIS TIME
++ IMAGES AND/OR FEATURES CAN BE REQUESTED FOR DOWNLOAD
+- BINARIES ARE NOT MADE AVAILABLE AT THIS TIME
 ```
 
 ## Citing
