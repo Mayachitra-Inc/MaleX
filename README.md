@@ -50,7 +50,9 @@ If you use _MaleX_ in your research or wish to refer to the content published he
 
 ## Related Works
 
-Please feel free to also check out our other related published works:
+The Malimg Dataset that contains 9,339 malware images from 25 families can be downloaded [here](https://drive.google.com/file/d/1M83VzyIQj_kuE9XzhClGK5TZWh1T_pr-/view).
+
+Please feel free to check out our other related published works:
 
 - [SPAM: Signal Processing to Analyze Malware (2016)](https://arxiv.org/abs/1605.05280)
 - [OMD: Orthogonal Malware Detection Using Audio, Image, and Static Features (2021)](https://arxiv.org/abs/2111.04710)
