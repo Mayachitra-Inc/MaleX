@@ -1,5 +1,7 @@
 # MaleX
 
+[![arxiv.org](http://img.shields.io/badge/cs.CR-arXiv%3A2101.10578-B31B1B.svg)](https://arxiv.org/abs/2101.10578) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=ResearchGate&logoColor=white)](https://www.researchgate.net/publication/348754275_Malware_Detection_Using_Frequency_Domain-Based_Image_Visualization_and_Deep_Learning)
+
 _MaleX_ is a curated dataset of malware and benign Windows executable samples for malware researchers. The dataset contains 1,044,394 Windows executable binaries and corresponding image representations with 864,669 labelled as malware and 179,725 as benign. This dataset has reasonable number of samples and is sufficient to test data-driven machine learning classification methods and also to measure the performance of the designed models in terms of scalability and adaptability.
 
 ## Malware Visualization in Frequency Domain
