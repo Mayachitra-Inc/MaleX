@@ -2,13 +2,13 @@
 
 [![arxiv.org](http://img.shields.io/badge/cs.CR-arXiv%3A2101.10578-B31B1B.svg)](https://arxiv.org/abs/2101.10578) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=ResearchGate&logoColor=white)](https://www.researchgate.net/publication/348754275_Malware_Detection_Using_Frequency_Domain-Based_Image_Visualization_and_Deep_Learning)
 
-_MaleX_ is a curated dataset of malware and benign Windows executable samples for malware researchers. The dataset contains 1,044,394 Windows executable binaries and corresponding image representations with 864,669 labelled as malware and 179,725 as benign. This dataset has reasonable number of samples and is sufficient to test data-driven machine learning classification methods and also to measure the performance of the designed models in terms of scalability and adaptability.
+_MaleX_ is a curated dataset of malware and benign Windows executable samples for malware researchers. The dataset contains 1,044,394 Windows executable binaries and corresponding image representations with 864,669 labelled as malware and 179,725 as benign. This dataset has a reasonable number of samples and is sufficient to test data-driven machine learning classification methods and also to measure the performance of the designed models in terms of scalability and adaptability.
 
 ## Malware Visualization in Frequency Domain
 
-The motivation to visualize malware in frequency domain is because of the "sparse" feature representations of malware in literature that are typically extracted from raw bytes of the binaries or disassembled instructions (n-grams, n-perms).
+The motivation to visualize malware in the frequency domain is because of the "sparse" feature representations of malware in the literature that are typically extracted from raw bytes of the binaries or disassembled instructions (n-grams, n-perms).
 
-A given executable binary file is read as a 16-bit signed hexadecimal vector and divided into corresponding bi-grams (n-grams of bytes with n=2). As an example, for the byte-stream _0a1bc48a_, the corresponding bi-grams will be _0a1b_, _1bc4_ and _c48a_. We then use the bi-gram frequency count to get a sparse image of dimensions 256x256 (where each pixel intensity value corresponds to normalized frequency count of a particular bi-gram). The image dimensions is the primary reason for choosing bi-grams (n=2) as it aids image-based machine learning classification with low time complexity in the training phase. Finally, we compute the full frame Discrete Cosine Transform (DCT) of this image to de-sparsify and get a resulting "bigram-dct" image with distinctive textured patterns. Before normalizing frequency count to get the sparse image, we zero out the first frequency count value corresponding to the bi-gram _0000_, as this value is relatively very large compared to that of other bi-grams and the bi-gram either corresponds to empty space or new line(s) in the code with no useful information. The overview of the proposed feature extraction method is shown below.
+A given executable binary file is read as a 16-bit signed hexadecimal vector and divided into corresponding bi-grams (n-grams of bytes with n=2). As an example, for the byte-stream _0a1bc48a_, the corresponding bi-grams will be _0a1b_, _1bc4_ and _c48a_. We then use the bi-gram frequency count to get a sparse image of dimensions 256x256 (where each pixel intensity value corresponds to the normalized frequency count of a particular bi-gram). The image dimensions are the primary reason for choosing bi-grams (n=2) as it aids image-based machine learning classification with low time complexity in the training phase. Finally, we compute the full frame Discrete Cosine Transform (DCT) of this image to de-sparsify and get a resulting "bigram-dct" image with distinctive textured patterns. Before normalizing frequency count to get the sparse image, we zero out the first frequency count value corresponding to the bi-gram _0000_, as this value is relatively very large compared to that of other bi-grams and the bi-gram either corresponds to empty space or new line(s) in the code with no useful information. The overview of the proposed feature extraction method is shown below.
 
 ![Bigram-dct image](figs/overview.png "Visualizing malware as a grayscale image in DCT domain")
 
@@ -18,18 +18,18 @@ A given executable binary file is read as a 16-bit signed hexadecimal vector and
 
 ## Comparing Malware Visualization Methods
 
-Previous research has shown that malware variants belonging to the same family exhibit visual similarity in the byteplot images. These are based on visualization of malware binaries in the spatial domain by converting bytes to pixels. The frequency domain-based visualization is another such "orthogonal" depiction of malware binary that is shown (in our paper, [Malware Detection Using Frequency Domain-Based Image Visualization and Deep Learning](https://arxiv.org/abs/2101.10578)) to aid computer vision algorithms to detect malware. The comparison of the byteplot and "bigram-dct" representations is shown in the figure below.
+Previous research has shown that malware variants belonging to the same family exhibit visual similarity in the byteplot images. These are based on the visualization of malware binaries in the spatial domain by converting bytes to pixels. The frequency domain-based visualization is another such "orthogonal" depiction of malware binary that is shown (in our paper, [Malware Detection Using Frequency Domain-Based Image Visualization and Deep Learning](https://arxiv.org/abs/2101.10578)) to aid computer vision algorithms to detect malware. The comparison of the byteplot and "bigram-dct" representations is shown in the figure below.
 
 ![Byteplot vs Bigram-DCT](figs/comparison.png "Byteplot vs. Bigram-dct")
 
 ## Download Policy
 
-We are not responsible, or liable to you or any third party, for the content or accuracy of any materials provided by us. The release of data is conditioned on accepting the following terms to avoid the dataset being misused.
+We are not responsible, or liable to you or any third party, for the content or accuracy of any materials provided by us. Data release is conditioned on accepting the following terms to avoid the dataset being misused.
 
-- If you are a student (or postdoc) in academia, please ask your advisor (or host) to fill out the [form](https://mayachitra.com/#contact-us) with subject that starts with [MaleX Request]. If you are a faculty member, please provide university's email account in the form. In your message, please include your name, affiliation, and homepage. The information is needed for verification purpose.
-- If you are in research (industrial) labs, please fill out the [form](https://mayachitra.com/#contact-us) by providing your company's email account with subject that starts with [MaleX Request]. In the message, please briefly introduce yourself (e.g., name and title) and your company. In the form, please attach a justification letter (in PDF format) in official letterhead. The justification letter needs to acknowledge the "MaleX Malware Dataset" from Mayachitra, Inc. and state clearly the reasons why the dataset is being requested.
+- If you are a student (or postdoc) in academia, please ask your advisor (or host) to fill out the [form](https://mayachitra.com/#contact-us) with a subject that starts with [MaleX Request]. If you are a faculty member, please provide the university's email account in the form. In your message, please include your name, affiliation, and homepage. The information is needed for verification purposes.
+- If you are in research (industrial) labs, please fill out the [form](https://mayachitra.com/#contact-us) by providing your company's email account with a subject that starts with [MaleX Request]. In the message, please briefly introduce yourself (e.g., name and title) and your company. In the form, please attach a justification letter (in PDF format) on official letterhead. The justification letter needs to acknowledge the "MaleX Malware Dataset" from Mayachitra, Inc., and state the reasons why the dataset is being requested.
 
-Please note that, your request will be ignored if you are unable to follow these conditions. Also, while filling out the form, please make sure that the **message's character length is between 20 and 1000**, and/or the **PDF attachment is less than 2MB**.
+Just so you know, your request will be ignored if you are unable to follow these conditions. Also, while filling out the form, please make sure that the **message's character length is between 20 and 1000**, and/or the **PDF attachment is less than 2MB**.
 
 ```diff
 + IMAGES AND/OR FEATURES CAN BE REQUESTED FOR DOWNLOAD
@@ -60,7 +60,7 @@ Please feel free to check out our other related published works:
 - [OMD: Orthogonal Malware Detection Using Audio, Image, and Static Features (2021)](https://arxiv.org/abs/2111.04710)
 - [HAPSSA: Holistic Approach to PDF Malware Detection Using Signal and Statistical Analysis (2021)](https://arxiv.org/abs/2111.04703)
 
-Also, check out our web-accessible service, [MalSee](https://malsee.mayachitra.com/) that recasts suspect software binaries as images and exploits computer vision techniques to automatically detect malware.
+Also, check out our web-accessible (beta) service, [MalSee](https://malsee.mayachitra.com/) which recasts suspect software binaries as images and exploits computer vision techniques to detect malware automatically.
 
 ## Contact Us
 
@@ -73,4 +73,4 @@ Have more questions? Write to us by filling in this [form](https://mayachitra.co
 
 _MaleX_ is released under GPL-3.0 License.
 
-Copyright © 2022 [Mayachitra, Inc.](https://mayachitra.com/)
+Copyright © 2024 [Mayachitra, Inc.](https://mayachitra.com/)
