@@ -24,15 +24,12 @@ Previous research has shown that malware variants belonging to the same family e
 
 ## Download Policy
 
-We are not responsible, or liable to you or any third party, for the content or accuracy of any materials provided by us. Data release is conditioned on accepting the following terms to avoid the dataset being misused.
+To access the MaleX dataset, please fill out our [form](https://forms.gle/EqRpnrCqJikueMbN9) with your name, email address, affiliation (Academic/Industry), and intended use of the dataset. After submitting the form, you will receive an automated email containing a PDF with download instructions and dataset details.
 
-- If you are a student (or postdoc) in academia, please ask your advisor (or host) to fill out the [form](https://mayachitra.com/#contact-us) with a subject that starts with [MaleX Request]. If you are a faculty member, please provide the university's email account in the form. In your message, please include your name, affiliation, and homepage. The information is needed for verification purposes.
-- If you are in research (industrial) labs, please fill out the [form](https://mayachitra.com/#contact-us) by providing your company's email account with a subject that starts with [MaleX Request]. In the message, please briefly introduce yourself (e.g., name and title) and your company. In the form, please attach a justification letter (in PDF format) on official letterhead. The justification letter needs to acknowledge the "MaleX Malware Dataset" from Mayachitra, Inc., and state the reasons why the dataset is being requested.
-
-Just so you know, your request will be ignored if you are unable to follow these conditions. Also, while filling out the form, please make sure that the **message's character length is between 20 and 1000**, and/or the **PDF attachment is less than 2MB**.
+The MaleX dataset is provided exclusively for research purposes, particularly in the field of malware analysis. By downloading and using the dataset, you agree to use it responsibly and ethically, ensuring it is not misused in any harmful or illegal activities. We are not responsible for any consequences or damages that may arise from the use of this dataset. It is provided "as-is" and access implies acknowledgment of the risks associated with malware-related data.
 
 ```diff
-+ IMAGES AND/OR FEATURES CAN BE REQUESTED FOR DOWNLOAD
++ IMAGES AND FEATURES ARE AVAILABLE FOR DOWNLOAD
 - BINARIES ARE NOT MADE AVAILABLE AT THIS TIME
 ```
 
@@ -64,8 +61,8 @@ Also, check out our web-accessible (beta) service, [MalSee](https://malsee.mayac
 
 ## Contact Us
 
-Mayachitra, Inc. <br />
-5266 Hollister Ave, Suite 229, Santa Barbara, CA, 93111 <br />
+Mayachitra, Inc.<br>
+5266 Hollister Ave, Suite 229, Santa Barbara, CA, 93111<br>
 
 Have more questions? Write to us by filling in this [form](https://mayachitra.com/#contact-us).
 
